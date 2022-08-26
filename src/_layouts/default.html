@@ -24,15 +24,14 @@
     <!-- Page content -->
     {{ content }}
 
+    {% include 'footer.html' %}
+
     <!-- CSS included in every page using this layout -->
     {% stylesheet 'scss' %}
       @import "main";
     {% endstylesheet %}
 
     <!-- JS included in every page using this layout -->
-    {% javascript %}
-      console.log("Hello from Twelvety 👋");
-    {% endjavascript %}
 
     <!-- Capture all JS included in this page -->
     {% capture js -%}

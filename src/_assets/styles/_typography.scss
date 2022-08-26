@@ -1,0 +1,26 @@
+h1 {
+  font-size: $step-6;
+}
+
+h2 {
+  font-size: $step-5;
+}
+
+h3 {
+  font-size: $step-4;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1em;
+  font-size: $base;
+}
+
+small {
+  font-size: $small;
+}
