@@ -46,7 +46,11 @@ module.exports = function (config) {
   // Documentation: https://www.11ty.dev/docs/languages/markdown/#add-your-own-plugins
   config.setLibrary("md", markdown);
 
+  config.addPassthroughCopy("./src/_static/icon.svg");
+  config.addPassthroughCopy("./src/_static/favicon.ico");
+
   return {
     dir: twelvety.dir,
+    passthroughFileCopy: true,
   };
 };
