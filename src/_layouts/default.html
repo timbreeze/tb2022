@@ -36,13 +36,14 @@
 
     <!-- JS included in every page using this layout -->
 
-    <!-- Capture all JS included in this page -->
+    <!-- Capture all JS included in this page
     {% capture js -%}
       {% script page.url %}
     {%- endcapture -%}
 
-    <!-- Defer page script -->
-    <script src="{% asset js, 'js' %}" defer></script>
+-->
+    <!-- Defer page script
+    <script src="{% asset js, 'js' %}" defer></script> -->
 
     <!-- Append everything inside to head, see README for more information -->
     {% append 'head' %}
