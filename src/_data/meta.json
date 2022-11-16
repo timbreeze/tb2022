@@ -1,5 +1,8 @@
 {
   "site": "Front-end Developer: React, TypeScript, A11Y",
   "title": "Tim Breeze",
-  "description": "A front-end developer and digital designer currently working with React, TypeScript, and the Contensis CMS @zengenti."
+  "description": "A front-end developer and digital designer currently working with React, TypeScript, and the Contensis CMS @zengenti.",
+  "type": "website",
+  "canonical": "https://tim-breeze.com/",
+  "image": "/_static/og-image.png"
 }
