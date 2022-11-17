@@ -48,6 +48,7 @@ module.exports = function (config) {
 
   config.addPassthroughCopy("./src/_static/icon.svg");
   config.addPassthroughCopy("./src/_static/favicon.ico");
+  config.addPassthroughCopy("./src/_static/og-image.png");
 
   return {
     dir: twelvety.dir,
